@@ -34,7 +34,7 @@ export default function Home({ data }) {
           <tbody>
             {
               contestData.map(contest => (
-                <ContestItem props={contest} key={contest.props.name} />
+                <ContestItem props={contest} key={contest.name} />
               ))
             }
           </tbody>
